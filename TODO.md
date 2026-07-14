@@ -14,11 +14,11 @@ Companion to `ROADMAP.md`. Every day has **4 normal tasks** + **1 🔍 Challenge
 
 ## Day 1 — What is Automated Testing?
 
-- [ ] Task 1: Read the "Introduction" section of the Laravel testing docs.
-- [ ] Task 2: Write a `Unit/Support/SanityTest.php` with one passing `it('is true', ...)` test.
-- [ ] Task 3: Run `php artisan test` and read the console output carefully — note what each part of the output means (dots/checks, time, memory).
-- [ ] Task 4: In your own words, write 3-4 bullet points in `TESTING.md` (create it) explaining unit vs feature vs integration tests.
-- [ ] 🔍 Challenge: Search "why TDD Red Green Refactor" and read at least one non-Laravel article on it. Summarize the 3 steps in `TESTING.md` in your own words, and note one criticism people have of strict TDD.
+- [x] Task 1: Read the "Introduction" section of the Laravel testing docs.
+- [x] Task 2: Write a `Unit/Support/SanityTest.php` with one passing `it('is true', ...)` test.
+- [x] Task 3: Run `php artisan test` and read the console output carefully — note what each part of the output means (dots/checks, time, memory).
+- [x] Task 4: In your own words, write 3-4 bullet points in `TESTING.md` (create it) explaining unit vs feature vs integration tests.
+- [x] 🔍 Challenge: Search "why TDD Red Green Refactor" and read at least one non-Laravel article on it. Summarize the 3 steps in `TESTING.md` in your own words, and note one criticism people have of strict TDD.
 
 ## Day 2 — Anatomy of a Pest Test
 
