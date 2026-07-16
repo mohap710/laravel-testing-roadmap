@@ -30,11 +30,11 @@ Companion to `ROADMAP.md`. Every day has **4 normal tasks** + **1 🔍 Challenge
 
 ## Day 3 — PHPUnit Underneath
 
-- [ ] Task 1: Read the PHPUnit "Writing Tests" docs (the assertion basics section).
-- [ ] Task 2: Add a `setUp()`-style `beforeEach()` and `tearDown()`-style `afterEach()` to one test file, each printing/dumping a marker so you can see the order they run in relative to your test.
-- [ ] Task 3: Rewrite one existing Pest test using raw `$this->assertEquals()`/`assertTrue()` syntax, run it, confirm it still passes, then revert.
-- [ ] Task 4: Make a short table in `TESTING.md`: Pest expectation → PHPUnit equivalent assertion (at least 5 rows).
-- [ ] 🔍 Challenge: Research the difference between `assertEquals` and `assertSame` in PHPUnit (loose vs strict comparison). Write one test that would pass with `assertEquals` but fail with `assertSame`, prove it, then delete the failing one and explain why in a comment.
+- [x] Task 1: Read the PHPUnit "Writing Tests" docs (the assertion basics section).
+- [x] Task 2: Add a `setUp()`-style `beforeEach()` and `tearDown()`-style `afterEach()` to one test file, each printing/dumping a marker so you can see the order they run in relative to your test.
+- [x] Task 3: Rewrite one existing Pest test using raw `$this->assertEquals()`/`assertTrue()` syntax, run it, confirm it still passes, then revert.
+- [x] Task 4: Make a short table in `TESTING.md`: Pest expectation → PHPUnit equivalent assertion (at least 5 rows).
+- [x] 🔍 Challenge: Research the difference between `assertEquals` and `assertSame` in PHPUnit (loose vs strict comparison). Write one test that would pass with `assertEquals` but fail with `assertSame`, prove it, then delete the failing one and explain why in a comment.
 
 ## Day 4 — Test Doubles, Conceptually
 

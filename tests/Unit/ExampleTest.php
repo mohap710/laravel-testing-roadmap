@@ -1,4 +1,6 @@
 <?php
+// beforeEach(fn() => dump("beforeEach"));
+// afterEach(fn() => dump("afterEach"));
 
 test('that true is true', function () {
     expect(true)->toBeTrue();

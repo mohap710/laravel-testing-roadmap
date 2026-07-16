@@ -34,3 +34,13 @@ A common criticism is that TDD can slow you down in some situations, especially 
 In these cases, writing tests first can feel like extra overhead without immediate benefit.
 
 ---
+
+## Pest Expectation and PhpUnit Equivalent Assertion
+
+| Pest                    | PHPUnit                    |
+| ----------------------- | -------------------------- |
+| `toBeLessThanOrEqual()` | `assertLessThanOrEqual()`  |
+| `json()`                | `assertJson()`             |
+| `toStartWith()`         | `assertStringStartsWith()` |
+| `toBeArray() `          | `assertIsArray()`          |
+| `toHaveKeys()`          | `assertArrayHasKey()`      |
