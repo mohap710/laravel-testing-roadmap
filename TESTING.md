@@ -15,6 +15,8 @@
 - Integration test focus on how Modules interacts with each other
 - example: Verifying that a `UserRepository` successfully saves a record to a live test PostgreSQL database and reads it back without data type mismatch errors.
 
+---
+
 ## Why TDD Red Green Refactor ?
 
 `Test-Driven Development` is a programming practice where the test drive the software development.
@@ -30,3 +32,5 @@ A common criticism is that TDD can slow you down in some situations, especially 
 - working on UI or integrations
 
 In these cases, writing tests first can feel like extra overhead without immediate benefit.
+
+---

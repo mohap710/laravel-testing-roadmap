@@ -22,11 +22,11 @@ Companion to `ROADMAP.md`. Every day has **4 normal tasks** + **1 🔍 Challenge
 
 ## Day 2 — Anatomy of a Pest Test
 
-- [ ] Task 1: Read the Pest "Writing Tests" doc page.
-- [ ] Task 2: Create `app/Support/formatCurrency.php` (or a class method) that converts cents to a formatted string.
-- [ ] Task 3: Write `Unit/Support/FormatCurrencyTest.php` with 3 separate `it()` blocks for different inputs (zero, negative, large number).
-- [ ] Task 4: Add a `beforeEach()` in that test file that logs/prints nothing functional yet — just to see it run before every test (add a `dump('running')` temporarily, then remove it).
-- [ ] 🔍 Challenge: Look up Pest's `expect()` API reference and find 3 expectation methods you haven't used yet (e.g. `toBeArray`, `toContain`, `toHaveCount`). Use each of them once in a real assertion.
+- [x] Task 1: Read the Pest "Writing Tests" doc page.
+- [x] Task 2: Create `app/Support/formatCurrency.php` (or a class method) that converts cents to a formatted string.
+- [x] Task 3: Write `Unit/Support/FormatCurrencyTest.php` with 3 separate `it()` blocks for different inputs (zero, negative, large number).
+- [x] Task 4: Add a `beforeEach()` in that test file that logs/prints nothing functional yet — just to see it run before every test (add a `dump('running')` temporarily, then remove it).
+- [x] 🔍 Challenge: Look up Pest's `expect()` API reference and find 3 expectation methods you haven't used yet (e.g. `toBeArray`, `toContain`, `toHaveCount`). Use each of them once in a real assertion.
 
 ## Day 3 — PHPUnit Underneath
 
