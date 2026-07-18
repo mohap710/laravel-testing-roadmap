@@ -38,11 +38,11 @@ Companion to `ROADMAP.md`. Every day has **4 normal tasks** + **1 🔍 Challenge
 
 ## Day 4 — Test Doubles, Conceptually
 
-- [ ] Task 1: Read the Laravel Mocking docs introduction.
-- [ ] Task 2: In `TESTING.md`, write one-sentence definitions (in your own words) of: dummy, stub, fake, spy, mock.
-- [ ] Task 3: Sketch (in a comment or `TESTING.md`) the classes you plan to build this week: e.g. `NotificationService` depending on a `Mailer` interface.
-- [ ] Task 4: For that sketch, write down which dependency you'd fake vs let run for real, and why.
-- [ ] 🔍 Challenge: Search "mocks vs stubs Martin Fowler" and read the classic distinction. Explain in 2-3 sentences why over-mocking can make tests brittle (tests that break on refactor even though behavior didn't change).
+- [x] Task 1: Read the Laravel Mocking docs introduction.
+- [x] Task 2: In `TESTING.md`, write one-sentence definitions (in your own words) of: dummy, stub, fake, spy, mock.
+- [*] Task 3: Sketch (in a comment or `TESTING.md`) the classes you plan to build this week: e.g. `NotificationService` depending on a `Mailer` interface.
+- [*] Task 4: For that sketch, write down which dependency you'd fake vs let run for real, and why.
+- [*] 🔍 Challenge: Search "mocks vs stubs Martin Fowler" and read the classic distinction. Explain in 2-3 sentences why over-mocking can make tests brittle (tests that break on refactor even though behavior didn't change).
 
 ## Day 5 — Organizing & Configuring
 
