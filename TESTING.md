@@ -87,3 +87,8 @@ so if you later refactor your code to use `batchSave()` the test will breaks. ev
 because we are testing the steps not the final result.
 
 **Key Takeaway**: If your tests break every time you clean up or reorganize your code, you are likely testing the "**how**" instead of the "**what**".
+
+## Testing Duration time at Day 5
+
+- Tests: 13 passed (15 assertions)
+- Duration: 1.41s

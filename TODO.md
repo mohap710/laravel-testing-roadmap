@@ -40,17 +40,17 @@ Companion to `ROADMAP.md`. Every day has **4 normal tasks** + **1 🔍 Challenge
 
 - [x] Task 1: Read the Laravel Mocking docs introduction.
 - [x] Task 2: In `TESTING.md`, write one-sentence definitions (in your own words) of: dummy, stub, fake, spy, mock.
-- [*] Task 3: Sketch (in a comment or `TESTING.md`) the classes you plan to build this week: e.g. `NotificationService` depending on a `Mailer` interface.
-- [*] Task 4: For that sketch, write down which dependency you'd fake vs let run for real, and why.
-- [*] 🔍 Challenge: Search "mocks vs stubs Martin Fowler" and read the classic distinction. Explain in 2-3 sentences why over-mocking can make tests brittle (tests that break on refactor even though behavior didn't change).
+- [x] Task 3: Sketch (in a comment or `TESTING.md`) the classes you plan to build this week: e.g. `NotificationService` depending on a `Mailer` interface.
+- [x] Task 4: For that sketch, write down which dependency you'd fake vs let run for real, and why.
+- [x] 🔍 Challenge: Search "mocks vs stubs Martin Fowler" and read the classic distinction. Explain in 2-3 sentences why over-mocking can make tests brittle (tests that break on refactor even though behavior didn't change).
 
 ## Day 5 — Organizing & Configuring
 
-- [ ] Task 1: Read the Pest "Configuring Tests" docs page.
-- [ ] Task 2: Build out the full `tests/` folder tree from the roadmap's architecture section if not already done.
-- [ ] Task 3: In `Pest.php`, scope `uses(Tests\TestCase::class)->in('Feature')` and confirm `Unit` tests do NOT boot the full app (they should run faster).
-- [ ] Task 4: Time your test suite with `php artisan test` and note the run time in `TESTING.md` as a baseline to compare against later.
-- [ ] 🔍 Challenge: Read about Pest's `uses()->group()` feature and PHPUnit `@group` annotations. Add a `group('slow')` or `group('fast')` tag to at least one existing test and run only that group from the CLI.
+- [x] Task 1: Read the Pest "Configuring Tests" docs page.
+- [x] Task 2: Build out the full `tests/` folder tree from the roadmap's architecture section if not already done.
+- [x] Task 3: In `Pest.php`, scope `uses(Tests\TestCase::class)->in('Feature')` and confirm `Unit` tests do NOT boot the full app (they should run faster).
+- [x] Task 4: Time your test suite with `php artisan test` and note the run time in `TESTING.md` as a baseline to compare against later.
+- [x] 🔍 Challenge: Read about Pest's `uses()->group()` feature and PHPUnit `@group` annotations. Add a `group('slow')` or `group('fast')` tag to at least one existing test and run only that group from the CLI.
 
 ## Day 6 — Basic HTTP Tests
 
