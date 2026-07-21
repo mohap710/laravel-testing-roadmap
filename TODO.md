@@ -62,11 +62,11 @@ Companion to `ROADMAP.md`. Every day has **4 normal tasks** + **1 🔍 Challenge
 
 ## Day 7 — Routes with Parameters
 
-- [ ] Task 1: Read the Laravel docs on Route Model Binding.
-- [ ] Task 2: Build a `Post` model, migration, and `posts/{post}` show route + controller.
-- [ ] Task 3: Test: visiting an existing post's URL returns 200.
-- [ ] Task 4: Test: visiting a non-existent post id returns 404 (`assertNotFound()`).
-- [ ] 🔍 Challenge: Research "implicit vs explicit route model binding" in Laravel. Add a custom binding (e.g. bind by `slug` instead of `id`) and write a test proving the slug-based URL resolves correctly.
+- [x] Task 1: Read the Laravel docs on Route Model Binding.
+- [x] Task 2: Build a `Post` model, migration, and `posts/{post}` show route + controller.
+- [x] Task 3: Test: visiting an existing post's URL returns 200.
+- [x] Task 4: Test: visiting a non-existent post id returns 404 (`assertNotFound()`).
+- [x] 🔍 Challenge: Research "implicit vs explicit route model binding" in Laravel. Add a custom binding (e.g. bind by `slug` instead of `id`) and write a test proving the slug-based URL resolves correctly.
 
 ## Day 8 — Views & Data
 
