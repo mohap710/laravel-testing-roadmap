@@ -54,11 +54,11 @@ Companion to `ROADMAP.md`. Every day has **4 normal tasks** + **1 🔍 Challenge
 
 ## Day 6 — Basic HTTP Tests
 
-- [ ] Task 1: Read "Making Requests" in the Laravel HTTP Tests docs.
-- [ ] Task 2: Build a `/` welcome route returning a view with a "Welcome" heading.
-- [ ] Task 3: Write a Feature test asserting `assertStatus(200)`.
-- [ ] Task 4: Add `assertSee('Welcome')` to the same test.
-- [ ] 🔍 Challenge: Look up `assertSeeInOrder()` and `assertDontSee()`. Add two more elements to your welcome page and write one test proving they appear in a specific order.
+- [x] Task 1: Read "Making Requests" in the Laravel HTTP Tests docs.
+- [x] Task 2: Build a `/` welcome route returning a view with a "Welcome" heading.
+- [x] Task 3: Write a Feature test asserting `assertStatus(200)`.
+- [x] Task 4: Add `assertSee('Welcome')` to the same test.
+- [x] 🔍 Challenge: Look up `assertSeeInOrder()` and `assertDontSee()`. Add two more elements to your welcome page and write one test proving they appear in a specific order.
 
 ## Day 7 — Routes with Parameters
 
