@@ -70,11 +70,11 @@ Companion to `ROADMAP.md`. Every day has **4 normal tasks** + **1 🔍 Challenge
 
 ## Day 8 — Views & Data
 
-- [ ] Task 1: Read "Assert View Has" in the HTTP Tests docs.
-- [ ] Task 2: Confirm your show route returns a `posts.show` view (add the view file if missing).
-- [ ] Task 3: Test `assertViewIs('posts.show')`.
-- [ ] Task 4: Test `assertViewHas('post')` and that the passed post matches the one from the DB.
-- [ ] 🔍 Challenge: Search how to test view data more deeply using a closure, e.g. `assertViewHas('post', fn ($post) => $post->title === 'X')`. Use this pattern to assert on a nested attribute, not just the top-level variable.
+- [x] Task 1: Read "Assert View Has" in the HTTP Tests docs.
+- [x] Task 2: Confirm your show route returns a `posts.show` view (add the view file if missing).
+- [x] Task 3: Test `assertViewIs('posts.show')`.
+- [x] Task 4: Test `assertViewHas('post')` and that the passed post matches the one from the DB.
+- [x] 🔍 Challenge: Search how to test view data more deeply using a closure, e.g. `assertViewHas('post', fn ($post) => $post->title === 'X')`. Use this pattern to assert on a nested attribute, not just the top-level variable.
 
 ## Day 9 — Validation Testing
 

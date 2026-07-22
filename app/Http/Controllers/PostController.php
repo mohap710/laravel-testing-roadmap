@@ -36,7 +36,7 @@ class PostController extends Controller
      */
     public function show(Post $post)
     {
-        return response(["post" => $post->title]);
+        return view("posts.show", compact('post'));
     }
 
     /**

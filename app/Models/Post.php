@@ -12,11 +12,17 @@ class Post extends Model
     protected $fillable = [
         'title',
         'slug',
+        'user_id'
     ];
 
     public function routeKey()
     {
         return $this->slug;
+    }
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
     }
 
     protected static function boot()
