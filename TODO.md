@@ -78,11 +78,11 @@ Companion to `ROADMAP.md`. Every day has **4 normal tasks** + **1 🔍 Challenge
 
 ## Day 9 — Validation Testing
 
-- [ ] Task 1: Read the Laravel Validation docs "Quick Writing the Validation Logic" section.
-- [ ] Task 2: Build a simple contact form (name + email, both required) with a Form Request or inline validation.
-- [ ] Task 3: Test: submitting with missing fields triggers `assertSessionHasErrors(['name', 'email'])`.
-- [ ] Task 4: Test: submitting valid data redirects (`assertRedirect()`).
-- [ ] 🔍 Challenge: Research custom validation rules (a Rule class). Add one custom rule (e.g. email must not be from a disposable-email domain, or a business rule of your choice) and test both the pass and fail case for it.
+- [x] Task 1: Read the Laravel Validation docs "Quick Writing the Validation Logic" section.
+- [x] Task 2: Build a simple contact form (name + email, both required) with a Form Request or inline validation.
+- [x] Task 3: Test: submitting with missing fields triggers `assertSessionHasErrors(['name', 'email'])`.
+- [x] Task 4: Test: submitting valid data redirects (`assertRedirect()`).
+- [x] 🔍 Challenge: Research custom validation rules (a Rule class). Add one custom rule (e.g. email must not be from a disposable-email domain, or a business rule of your choice) and test both the pass and fail case for it.
 
 ## Day 10 — JSON / API Testing
 
