@@ -86,11 +86,11 @@ Companion to `ROADMAP.md`. Every day has **4 normal tasks** + **1 🔍 Challenge
 
 ## Day 10 — JSON / API Testing
 
-- [ ] Task 1: Read "Testing JSON APIs" in the HTTP Tests docs.
-- [ ] Task 2: Build `GET /api/posts` returning a JSON list via an API Resource.
-- [ ] Task 3: Test `assertJsonStructure()` matches the expected shape (id, title, excerpt, etc.).
-- [ ] Task 4: Test `assertJsonFragment()` for one specific post's data.
-- [ ] 🔍 Challenge: Look into Laravel API Resource Collections and pagination meta (`links`, `meta`). Add pagination to the endpoint and write a test asserting the `meta.total` and `links.next` keys exist and behave correctly.
+- [x] Task 1: Read "Testing JSON APIs" in the HTTP Tests docs.
+- [x] Task 2: Build `GET /api/posts` returning a JSON list via an API Resource.
+- [x] Task 3: Test `assertJsonStructure()` matches the expected shape (id, title, created_at, etc.).
+- [x] Task 4: Test `assertJsonFragment()` for one specific post's data.
+- [x] 🔍 Challenge: Look into Laravel API Resource Collections and pagination meta (`links`, `meta`). Add pagination to the endpoint and write a test asserting the `meta.total` and `links.next` keys exist and behave correctly.
 
 ## Day 11 — RefreshDatabase & Test DB
 
