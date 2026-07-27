@@ -92,3 +92,26 @@ because we are testing the steps not the final result.
 
 - Tests: 13 passed (15 assertions)
 - Duration: 1.41s
+
+## Database Refresh Traits: `RefreshDatabase` vs. `LazilyRefreshDatabase`
+
+When writing tests in Laravel, managing database migrations and state isolation is critical. Choosing between `RefreshDatabase` and `LazilyRefreshDatabase` can impact your test suite's performance.
+
+### Overview
+
+- **`RefreshDatabase`**: Triggers `php artisan migrate:fresh` (or builds an in-memory SQLite database) the moment the test suite boots and the first test runs, even if that specific test doesn't require database access.
+- **`LazilyRefreshDatabase`**: Defays the database migration step. It waits until a test actually executes a database query or interacts with a model factory. If a test file does not interact with the database, migrations are skipped entirely.
+
+---
+
+### Performance Comparison
+
+- **Execution Speed per Test:** The runtime speed of individual tests is virtually identical because both traits use database transactions to roll back changes between tests.
+- **Startup Overhead:** `LazilyRefreshDatabase` provides a performance boost for mixed test suites containing pure unit tests, action tests, or service tests that do not hit the database, avoiding unnecessary migration overhead at boot.
+
+---
+
+### When to Choose Which?
+
+- **Use `LazilyRefreshDatabase`** when working with a mixed test suite containing many non-database tests, or as a default optimization in your base `TestCase`.
+- **Use `RefreshDatabase`** when virtually every test in your suite interacts with the database anyway, or if you prefer eager schema validation upfront.

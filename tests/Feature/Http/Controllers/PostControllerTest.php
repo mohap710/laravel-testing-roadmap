@@ -18,4 +18,9 @@ describe('PostController', function () {
         // $post->save();
         $this->get(route('post.show', ["post" => "not found post"]))->assertNotFound();
     });
+
+    test("RefreshDataBase should reset the Database After Each Test", function () {
+        $posts = \App\Models\Post::all();
+        $this->assertCount(0, $posts);
+    });
 });

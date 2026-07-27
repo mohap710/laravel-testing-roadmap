@@ -94,11 +94,11 @@ Companion to `ROADMAP.md`. Every day has **4 normal tasks** + **1 🔍 Challenge
 
 ## Day 11 — RefreshDatabase & Test DB
 
-- [ ] Task 1: Read "Resetting the Database After Each Test" in Database Testing docs.
-- [ ] Task 2: Add `use RefreshDatabase;` to one Feature test class.
-- [ ] Task 3: Prove isolation: create a row in one test, then assert in a _second_ test that the row does NOT exist.
-- [ ] Task 4: Confirm migrations run automatically each test by intentionally breaking a migration and watching the suite fail.
-- [ ] 🔍 Challenge: Research `LazilyRefreshDatabase` vs `RefreshDatabase` — what's the actual performance difference and when would you choose one over the other? Write your answer in `TESTING.md` and switch your base `TestCase` to whichever you decide fits this project.
+- [x] Task 1: Read "Resetting the Database After Each Test" in Database Testing docs.
+- [x] Task 2: Add `use RefreshDatabase;` to one Feature test class.
+- [x] Task 3: Prove isolation: create a row in one test, then assert in a _second_ test that the row does NOT exist.
+- [x] Task 4: Confirm migrations run automatically each test by intentionally breaking a migration and watching the suite fail.
+- [x] 🔍 Challenge: Research `LazilyRefreshDatabase` vs `RefreshDatabase` — what's the actual performance difference and when would you choose one over the other? Write your answer in `TESTING.md` and switch your base `TestCase` to whichever you decide fits this project.
 
 ## Day 12 — Model Factories
 
