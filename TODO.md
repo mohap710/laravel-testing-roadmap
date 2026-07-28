@@ -102,11 +102,11 @@ Companion to `ROADMAP.md`. Every day has **4 normal tasks** + **1 🔍 Challenge
 
 ## Day 12 — Model Factories
 
-- [ ] Task 1: Read the Eloquent Factories docs.
-- [ ] Task 2: Generate a `PostFactory` with realistic fake data (title, body, slug).
-- [ ] Task 3: Add a `published()` state and a `draft()` state to the factory.
-- [ ] Task 4: Use `Post::factory()->published()->create()` inside a test and assert on the result.
-- [ ] 🔍 Challenge: Research factory relationships (`has()`, `for()`) and sequences (`Sequence` class). Create a `UserFactory` and use `Post::factory()->for(User::factory())->count(3)->create()` in one test, asserting the relationship correctly links all 3 posts to the same user.
+- [x] Task 1: Read the Eloquent Factories docs.
+- [x] Task 2: Generate a `PostFactory` with realistic fake data (title, body, slug).
+- [x] Task 3: Add a `published()` state and a `draft()` state to the factory.
+- [x] Task 4: Use `Post::factory()->published()->create()` inside a test and assert on the result.
+- [x] 🔍 Challenge: Research factory relationships (`has()`, `for()`) and sequences (`Sequence` class). Create a `UserFactory` and use `Post::factory()->for(User::factory())->count(3)->create()` in one test, asserting the relationship correctly links all 3 posts to the same user.
 
 ## Day 13 — Database Assertions
 
